@@ -27,3 +27,13 @@ Enter the text you want to convert to speech: Hello bro, how r u
 ```pgsql
 🎙️ → (Computer speaks out: Hello bro, how r u)
 ```
+
+## Flow 
+
+1. Start
+2. User inputs the text to be converted
+3. Pass the text to the Text-to-Speech (TTS) engine
+4. TTS engine processes the text
+5. Output the spoken audio
+6. End
+
