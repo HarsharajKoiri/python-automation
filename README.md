@@ -1,2 +1,2 @@
-# python-automation-journey
-60 days of fun, useful Python automation scripts
+Hey this is Harsharaj Koiri, just sharing some mini-projects for funfull timepass, you can do it in your free time when u get bored.
+Happy coding 😜
