@@ -53,4 +53,35 @@ To-Do List App
 Enter your choice (1-4): 2
 Enter the task to add: Buy pizza
 Task 'Buy pizza' added to the list.
-
+```
+## Flow
+```mathematics
+Start
+  |
+  v
+Show Main Menu:
+  1. View To-Do List
+  2. Add a Task
+  3. Remove a Task
+  4. Exit
+  |
+  v
+Check User Input
+  |
+  v
++-------------------+      +-----------------+      +-----------------------+      +----------------+
+| View To-Do List   | ---> | Add a Task      | ---> | Remove a Task         | ---> | Exit and Save  |
++-------------------+      +-----------------+      +-----------------------+      +----------------+
+  |                         |                           |
+  v                         v                           v
+Show Current List         Ask for Task Description     Show Task List, Ask Task No.
+  |                         |                           |
+  v                         v                           v
+Return to Menu            Add Task to List            Remove Selected Task
+  |                         |                           |
+  v                         v                           v
+Loop or Exit             Save to `tasks.txt`           Update Task List
+  |                                                      |
+  v                                                      v
+End (Exit)                                             Save to `tasks.txt`
+```
