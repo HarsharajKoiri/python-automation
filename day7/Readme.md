@@ -14,7 +14,12 @@ This is part of my **Python Automation Journey**.
 -  Easy to extend to save or filter news
 
 ---
+## ⚙️ Requirements
 
+```bash
+pip install requests beautifulsoup4
+```
+---
 ##  How It Works
 
 - Uses `requests` to fetch web content
@@ -23,6 +28,7 @@ This is part of my **Python Automation Journey**.
 - Displays them in a clean, numbered list
 
 ---
+
 
 ## Usage
 ```bash
@@ -96,8 +102,4 @@ python news_scraper.py
 +----------------------------+
 ```
 
-## ⚙️ Requirements
-
-```bash
-pip install requests beautifulsoup4
 
